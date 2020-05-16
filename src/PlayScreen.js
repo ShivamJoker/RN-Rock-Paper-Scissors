@@ -24,7 +24,7 @@ export default function PlayScreen() {
 
     const timer = setTimeout(() => {
       setCounter(previous => previous + 1);
-    }, 1000);
+    }, 500);
 
     return () => clearTimeout(timer);
   }, [counter]);
