@@ -1,5 +1,5 @@
 import React, {useState} from 'react';
-import {StyleSheet, Text, View, Button} from 'react-native';
+import {StyleSheet, Text, View, Button, Linking} from 'react-native';
 import PlayScreen from './PlayScreen';
 
 export default function App() {
@@ -11,8 +11,22 @@ export default function App() {
       <Text style={styles.header}>Rock Paper Scissors</Text>
       <Text style={styles.emoji}>✊ ✋ ✌️</Text>
       <View style={styles.btnContainer}>
-        <Button onPress={() => {setPlayMode(true)}} title="Play" />
+        <Button
+          onPress={() => {
+            setPlayMode(true);
+          }}
+          title="Play"
+        />
       </View>
+      <Text
+        style={styles.srcCode}
+        onPress={() =>
+          Linking.openURL(
+            'https://github.com/ShivamJoker/RN-Rock-Paper-Scissors',
+          )
+        }>
+        Source Code
+      </Text>
     </View>
   );
 }
@@ -34,5 +48,11 @@ const styles = StyleSheet.create({
   btnContainer: {
     marginTop: 60,
     width: 240,
+  },
+  srcCode: {
+    position: 'absolute',
+    bottom: 20,
+    color: '#0069c0',
+    textDecorationLine: 'underline',
   },
 });
