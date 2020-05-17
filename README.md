@@ -1,4 +1,4 @@
-# RN-Rock-Paper-Scissors
+# Simple Rock-Paper-Scissors Game
 Simple Rock Paper Scissors Game Made in React Native runs on Android, iOS, Web, MacOS, Windows
 
 # How to develop
