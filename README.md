@@ -3,6 +3,13 @@ Simple Rock Paper Scissors Game Made in React Native runs on Android, iOS, Web, 
 
 ![Demo gif](https://github.com/ShivamJoker/RN-Rock-Paper-Scissors/blob/master/game_demo.gif)
 
+# Download
+<a href='https://play.google.com/store/apps/details?id=com.rockpaperscissors.game'><img alt='Get it on Google Play' width="300" src='https://play.google.com/intl/en_us/badges/static/images/badges/en_badge_web_generic.png'/></a>
+         
+<a href='//www.microsoft.com/store/apps/9N76J7BX55HQ?cid=storebadge&ocid=badge'><img src='https://developer.microsoft.com/en-us/store/badges/images/English_get-it-from-MS.png' alt='Get it on Microsoft Store' width="300" style="margin: 10px;"/></a>
+
+[Download .dmg]() for MacOS
+
 # How to develop
 
 Make sure you have React Native CLI Set-Up
